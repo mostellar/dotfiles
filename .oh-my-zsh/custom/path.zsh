@@ -1,1 +1,1 @@
-export PATH="/Users/willmostellar/projects/scripts:/usr/local/opt/python/libexec/bin:$PATH"
+export PATH="$HOME/scripts:/usr/local/opt/python/libexec/bin:$PATH"
