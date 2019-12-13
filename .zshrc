@@ -100,3 +100,6 @@ fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+cd $HOME/.config/dotfiles.git
+echo "On dotfiles branch $(git_current_branch)"
+cd $HOME
