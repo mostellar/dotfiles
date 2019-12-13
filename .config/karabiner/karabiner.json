@@ -67,6 +67,52 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Changes escape key to tilde when used with left_gui or left_control",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_gui"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": [
+                                            "left_gui"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -77,7 +123,53 @@
                     "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": false,
-                        "product_id": 637,
+                        "product_id": 26,
+                        "vendor_id": 9494
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_gui"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_alt"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_alt"
+                            },
+                            "to": {
+                                "key_code": "right_gui"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_gui"
+                            },
+                            "to": {
+                                "key_code": "right_alt"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 610,
                         "vendor_id": 1452
                     },
                     "ignore": false,
@@ -90,20 +182,42 @@
                     "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": false,
-                        "product_id": 4,
-                        "vendor_id": 9494
+                        "product_id": 41208,
+                        "vendor_id": 1241
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "caps_lock"
+                                "key_code": "left_alt"
                             },
                             "to": {
-                                "key_code": "escape"
+                                "key_code": "left_gui"
                             }
                         },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_alt"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 4,
+                        "vendor_id": 9494
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [
                         {
                             "from": {
                                 "key_code": "left_alt"
