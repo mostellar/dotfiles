@@ -9,3 +9,4 @@ let g:airline_theme='gruvbox'
 
 " Typwriter scrolling
 set scrolloff=999
+
