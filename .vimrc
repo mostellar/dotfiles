@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
 
 
 " All of your Plugins must be added before the following line
@@ -36,6 +37,9 @@ set background=dark
 colorscheme molokai
 let g:airline_theme='molokai'
 set number
+" Uses highlighting to change SpecialKey (used for incomplete autocomplete)
+" color
+:highlight! def link SpecialKey Normal
 
 " Make backspace work like in other apps
 set backspace=indent,eol,start
@@ -86,3 +90,7 @@ set visualbell t_vb=
 
 "Airline customization
 let g:airline#extensions#whitespace#enabled = 0
+
+" Commands and scripts
+command! -nargs=1 Silent execute ':silent !'.<q-args> | execute ':redraw!'
+command! MD exe ':silent !open -a Typora %' | exe 'sleep 500m' | exe ':silent !open -a iTerm' | exe ':redraw!'
