@@ -5,3 +5,6 @@
 	editor = vim
 [credential]
 	helper = osxkeychain
+[pager]
+	branch = false
+	log = false
