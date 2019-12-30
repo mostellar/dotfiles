@@ -1,0 +1,19 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "selection",
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracket-pair-colorizer-2.colors": [
+        "white",
+        "deepskyblue",
+        "orchid",
+        "gold"
+    ],
+    "editor.matchBrackets": false,
+    "workbench.tree.indent": 14,
+    "workbench.editor.tabCloseButton": "off",
+    "editor.detectIndentation": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.cursorSurroundingLines": 10
+}
