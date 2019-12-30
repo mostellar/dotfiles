@@ -1,7 +1,0 @@
-[user]
-	name = Will Mostellar
-	email = stellarwill@gmail.com
-[core]
-	editor = vim
-[credential]
-	helper = osxkeychain
