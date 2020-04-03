@@ -113,6 +113,27 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Changes Pause key to mute mic",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "pause",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "osascript -e 'set inputVolume to input volume of (get volume settings)' -e 'if inputVolume = 0 then' -e '    set inputVolume to 75' -e 'else' -e '    set inputVolume to 0' -e 'end if' -e 'set volume input volume inputVolume'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
