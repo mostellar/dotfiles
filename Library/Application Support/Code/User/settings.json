@@ -15,5 +15,6 @@
     "editor.detectIndentation": false,
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "editor.cursorSurroundingLines": 10
+    "editor.cursorSurroundingLines": 10,
+    "explorer.confirmDragAndDrop": false
 }
