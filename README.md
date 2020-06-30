@@ -1,5 +1,6 @@
 # dotfiles
 ~~I followed the guide from here: https://www.atlassian.com/git/tutorials/dotfiles.~~
+
 Now using a separate working directory with symlinks created by GNU Stow
 
 # Features
