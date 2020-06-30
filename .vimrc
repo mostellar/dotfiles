@@ -48,13 +48,22 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
 Plugin 'morhetz/gruvbox'
 "NERDTree
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
+Plugin 'preservim/nerdtree'
 "Ctrl-P
 Plugin 'kien/ctrlp.vim'
 "vim-airline and themes
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'junegunn/goyo.vim'
+"For onehalfdark
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
+set t_Co=256
+"End onehalfdark
+
+"Smooth scrolling
+"Plugin 'psliwka/vim-smoothie'
+"Plugin 'yuttie/comfortable-motion.vim'
 
 
 " All of your Plugins must be added before the following line

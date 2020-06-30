@@ -6,5 +6,5 @@ alias bloggle="blueutil -p 0; printf 'Resetting Bluetooth'; sleep 1; printf '.';
 alias clear="clear && printf '\e[3J'"
 alias focus="killall OneDrive; killall CrashPlanService; killall CrashPlan; killall callservicesd; killall hubd; killall soagent"
 alias top="top -o cpu -s 2 -stats pid,command,cpu,mem"
-alias vi="nvim"
-alias vim="nvim"
+# alias vi="nvim"
+# alias vim="nvim"

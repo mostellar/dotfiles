@@ -1,4 +1,4 @@
-set guifont=Monaco:h13
-" set background=dark
-" set colorscheme=molokai
-" let g:airline_theme='molokai'
+set guifont=Menlo:h14
+"set background=dark
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
