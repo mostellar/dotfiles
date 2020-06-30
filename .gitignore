@@ -30,3 +30,4 @@ Temporary Items
 .ssh*
 .bash_history
 .zsh_history
+.vim*
