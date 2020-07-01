@@ -60,6 +60,7 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 set t_Co=256
 "End onehalfdark
+Plugin 'vimwiki/vimwiki'
 
 "Smooth scrolling
 "Plugin 'psliwka/vim-smoothie'
@@ -84,7 +85,7 @@ filetype plugin indent on    " required
 " Change leader to comma
 let mapleader = ","
 
-syntax enable
+syntax on
 set background=dark
 "assumes terminal?
 
@@ -108,9 +109,6 @@ colorscheme molokai
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
-
-" Enable folding with spacebar
-nnoremap <space> za
 
 " Enable docstring previews via SimpylFold
 let g:SimpylFold_docstring_preview=1
@@ -171,6 +169,7 @@ autocmd FileType python nnoremap <buffer> <leader>r :w<cr>:exec 'w !python' shel
 autocmd FileType python nnoremap <buffer> <leader>c I#<esc>
 
 " Word wrap
+set linebreak
 
 " Set scripts to be executable from the shell
 "au BufWritePost * if getline(1) =~ "^#!" | if getline(1) =~ "/bin/" | silent !chmod +x <afile> | endif | endif
@@ -210,3 +209,9 @@ endif
 
 set incsearch
 "Jump to search match while typing
+
+"My shortcuts
+nnoremap <C-tab> :tabnext<CR>
+nnoremap <C-S-tab> :tabprevious<CR>
+nnoremap <space> za "Enable folding with spacebar
+
