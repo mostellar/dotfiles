@@ -1,4 +1,4 @@
-git_prompt_info () {
+my_git_prompt_info () {
   local ref
   if [[ $(pwd) = $HOME ]]
   then
