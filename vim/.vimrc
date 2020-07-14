@@ -138,6 +138,8 @@ set encoding=utf-8
 
 " Line numbering
 set nu
+" Relative line numbering
+set rnu
 
 " Make backspace work like in other apps
 set backspace=indent,eol,start
