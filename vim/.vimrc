@@ -1,7 +1,5 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
-filetype plugin on
-set autoread
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,58 +12,32 @@ Plugin 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" Git plugin
+" Plugin 'tpope/vim-fugitive'
 "
 " Installed by me
 "
-" SimpylFold
-Plugin 'tmhedberg/SimpylFold'
-" Auto-Indentation
-Plugin 'vim-scripts/indentpython.vim'
-" YouCompleteMe
-"Bundle 'Valloric/YouCompleteMe'
-" syntastic
-Plugin 'scrooloose/syntastic'
-" PEP checking
-Plugin 'nvie/vim-flake8'
-" Colorschemes/themes
-"Plugin 'jnurmine/Zenburn'
-Plugin 'altercation/vim-colors-solarized'
-"Plugin 'ajh17/spacegray.vim'
-"Plugin 'kiddos/malokai.vim'
-Plugin 'tomasr/molokai'
-Plugin 'morhetz/gruvbox'
-"NERDTree
-"Plugin 'scrooloose/nerdtree'
 Plugin 'preservim/nerdtree'
-"Ctrl-P
-Plugin 'kien/ctrlp.vim'
-"vim-airline and themes
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'junegunn/goyo.vim'
-"For onehalfdark
-Plugin 'sonph/onehalf', {'rtp': 'vim/'}
-set t_Co=256
-"End onehalfdark
+"Plugin 'kien/ctrlp.vim'
 Plugin 'vimwiki/vimwiki'
 
 "Smooth scrolling
 "Plugin 'psliwka/vim-smoothie'
 "Plugin 'yuttie/comfortable-motion.vim'
+
+" Themes
+Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
+"For onehalfdark
+set t_Co=256
+"End onehalfdark
+"
+"vim-airline and themes
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'junegunn/goyo.vim'
 
 
 " All of your Plugins must be added before the following line
@@ -83,22 +55,17 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" Change leader to comma
-let mapleader = ","
-
-syntax on
-set background=dark
-"assumes terminal?
-
-"Solarized Theming
-"let g:solarized_termcolors=16
-"let g:solarized_termtrans=1
-"let g:solarized_visibility = "high"
-"let g:solarized_contrast = "high"
-
-"Gruvbox Theming
-
+" Colors and theming
 colorscheme molokai
+set background=dark
+"Airline theming
+let g:airline_theme='molokai'
+"let g:airline_solarized_bg='dark'
+
+filetype plugin on
+set autoread
+let mapleader = ","
+syntax on
 
 "filetype plugin indent on
 "set tabstop=4
@@ -115,20 +82,20 @@ set foldlevel=99
 let g:SimpylFold_docstring_preview=1
 
 " Enable PEP8 indentation
-au BufNewFile,BufRead *.py
-    \ set tabstop=4 |
-    \ set softtabstop=4 |
-    \ set shiftwidth=4 |
-    \ set textwidth=79 |
-    \ set expandtab |
-    \ set autoindent |
-    \ set fileformat=unix |
+"autocmd BufNewFile,BufRead *.py
+"    \ set tabstop=4 |
+"    \ set softtabstop=4 |
+"    \ set shiftwidth=4 |
+"    \ set textwidth=79 |
+"    \ set expandtab |
+"    \ set autoindent |
+"    \ set fileformat=unix |
 
 " Enable settings for other filetypes
-au BufNewFile,BufRead *.js, *.html, *.css
-    \ set tabstop=2 |
-    \ set softtabstop=2 |
-    \ set shiftwidth=2 |
+"autocmd BufNewFile,BufRead *.js, *.html, *.css
+"    \ set tabstop=2 |
+"    \ set softtabstop=2 |
+"    \ set shiftwidth=2 |
 
 " Flag whitespace
 " au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
@@ -156,9 +123,6 @@ autocmd BufRead,BufNewFile *.py let python_highlight_all=1
 "System clipboard
 set clipboard=unnamed
 "
-"Airline theming
-let g:airline_theme='molokai'
-"let g:airline_solarized_bg='dark'
 
 "Leader+r to run python
 "autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%,1)<cr>"
