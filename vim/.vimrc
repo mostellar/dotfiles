@@ -181,4 +181,4 @@ set incsearch
 nnoremap <C-tab> :tabnext<CR>
 nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <space> za "Enable folding with spacebar
-nnoremap <esc> :noh<return><esc>"
+nnoremap <esc> :noh<return><esc>
