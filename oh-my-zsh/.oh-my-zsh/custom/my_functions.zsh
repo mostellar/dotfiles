@@ -1,3 +1,4 @@
+# Function to replace git_prompt_info() that ignores $HOME as a working directory
 my_git_prompt_info () {
   local ref
   if [[ $(pwd) = $HOME ]]
@@ -15,6 +16,10 @@ my_git_prompt_info () {
     fi
   fi
 }
+
+# Function to call git on dotfiles directory instead of current directory
+# If called without parameters, run fetch then status of dotfiles
+# Usually aliased to "sdf"
 dotfiles () {
     if [ $# -eq 0 ]; then
         $(which git) -C "$HOME/.dotfiles/" fetch
