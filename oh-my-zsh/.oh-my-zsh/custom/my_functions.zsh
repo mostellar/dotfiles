@@ -17,6 +17,7 @@ my_git_prompt_info () {
 }
 dotfiles () {
     if [ $# -eq 0 ]; then
+        $(which git) -C "$HOME/.dotfiles/" fetch
         $(which git) -C "$HOME/.dotfiles/" status
     else
         $(which git) -C "$HOME/.dotfiles/" $*
