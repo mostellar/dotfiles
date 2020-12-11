@@ -20,7 +20,7 @@ Plugin 'VundleVim/Vundle.vim'
 "
 Plugin 'preservim/nerdtree'
 "Plugin 'kien/ctrlp.vim'
-Plugin 'vimwiki/vimwiki'
+"Plugin 'vimwiki/vimwiki'
 
 "Smooth scrolling
 "Plugin 'psliwka/vim-smoothie'
@@ -181,4 +181,4 @@ set incsearch
 nnoremap <C-tab> :tabnext<CR>
 nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <space> za "Enable folding with spacebar
-
+nnoremap <esc> :noh<return><esc>"
