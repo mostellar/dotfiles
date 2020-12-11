@@ -15,3 +15,10 @@ my_git_prompt_info () {
     fi
   fi
 }
+dotfiles () {
+    if [ $# -eq 0 ]; then
+        $(which git) -C "$HOME/.dotfiles/" status
+    else
+        $(which git) -C "$HOME/.dotfiles/" $*
+    fi
+}
