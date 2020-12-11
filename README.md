@@ -3,6 +3,8 @@
 
 Now using a separate working directory with symlinks created by GNU Stow: https://www.gnu.org/software/stow/manual/stow.html.
 
+#TODO
+ - [] Create function/script for more graceful stowing when files already exist.
 
 
 # Features
