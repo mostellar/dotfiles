@@ -22,4 +22,4 @@ Now using a separate working directory with symlinks created by GNU Stow: https:
 * Alias **sdf** for **dotfiles** ("**s**tellarwill's **d**ot**f**iles"
 
 ### Vim
-* TBD
+* TODO
