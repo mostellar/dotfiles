@@ -513,6 +513,10 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  ;; the t parameter apends to the hook, instead of prepending
+  ;; this means it'd be run after other hooks that might fiddle
+  ;; with the frame size
+  (add-hook 'window-setup-hook 'toggle-frame-maximized t)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
