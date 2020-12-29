@@ -517,6 +517,9 @@ before packages are loaded."
   ;; this means it'd be run after other hooks that might fiddle
   ;; with the frame size
   (add-hook 'window-setup-hook 'toggle-frame-maximized t)
+  ;; Always follow symlinks instead of asking
+  ;; If set to not follow, emacs will edit at the symlink's location
+  (setq vc-follow-symlinks t)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
