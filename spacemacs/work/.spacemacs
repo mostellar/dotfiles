@@ -530,7 +530,11 @@ before packages are loaded."
 
   ;; Org mode
   (with-eval-after-load 'org
-    ;;(evil-org-set-key-theme '(textobjects insert navigation additional shift todo heading))
+    ;; Org-journal
+    ;; These settings can go here or be defined in the layer itself
+    (setq org-journal-file-format "%Y-&m-&d")
+
+    (setq org-superstar-bullet-list '("■" "◆" "▲" "▶"))
     )
 
   (setq vc-follow-symlinks t)
