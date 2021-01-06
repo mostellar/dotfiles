@@ -51,7 +51,9 @@ This function should only modify configuration layer settings."
      markdown
      multiple-cursors
      (org :variables
-          org-enable-org-journal-support t)
+          org-want-todo-bindings t
+          org-enable-org-journal-support t
+          )
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
@@ -217,7 +219,7 @@ It should only modify the values of Spacemacs settings."
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(doom-vibrant
-                         doom-palenight)
+                         )
 
    ;; Set the theme for the Spaceline. Supported themes are `spacemacs',
    ;; `all-the-icons', `custom', `doom', `vim-powerline' and `vanilla'. The
@@ -527,20 +529,16 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
 
   ;; ESC cancels all
-  ;; (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+  (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
-  ;; I think this is where my org config should go
+  ;; org-mode
   (with-eval-after-load 'org
-    ;; Adds evil-org-mode shortcuts:
-    ;; https://github.com/Somelauw/evil-org-mode/blob/master/doc/keythemes.org
-    ;; (evil-org-set-key-theme '(textobjects insert navigation additional shift todo heading))
-
     ;; org-journal
-    (setq org-journal-dir "~/OneDrive - Will Mostellar/OrgFiles/Journal")
-    (setq org-journal-file-format "%Y-%m-%d")
+    (setq org-journal-dir "/Users/willmostellar/Library/Mobile Documents/iCloud~com~appsonthemove~beorg/Documents/org")
+    (setq org-journal-file-format "journal%Y-%m-%d")
 
     ;; org-capture
-    (setq-default org-default-notes-file "~/OneDrive - Will Mostellar/OrgFiles/Inbox.org")
+    (setq-default org-default-notes-file "~/Library/Mobile Documents/iCloud~com~appsonthemove~beorg/Documents/org/inbox.org")
     )
 
 
@@ -552,19 +550,6 @@ before packages are loaded."
   ;; Always follow symlinks instead of asking
   ;; If set to not follow, emacs will edit at the symlink's location
   (setq vc-follow-symlinks t)
-
-  ;; Trying to hide the ugly gray title bar
-
-  ;; Below doesn't make a change
-  ;;(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
-  ;;(add-to-list 'default-frame-alist '(ns-appearance . dark)) 
-
-  ;; Below hides whole title bar, including traffic lights
-  ;; (setq default-frame-alist '((undecorated . t)))
-  ;;(when (memq window-system '(mac ns))
-    ;;(add-to-list 'default-frame-alist '(ns-appearance . light)) ;; {light, dark}
-    ;;(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t)))
-
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
