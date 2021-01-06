@@ -534,11 +534,11 @@ before packages are loaded."
   ;; org-mode
   (with-eval-after-load 'org
     ;; org-journal
-    (setq org-journal-dir "/Users/willmostellar/Library/Mobile Documents/iCloud~com~appsonthemove~beorg/Documents/org")
+    (setq org-journal-dir "~/Dropbox/OrgFiles")
     (setq org-journal-file-format "journal%Y-%m-%d")
 
     ;; org-capture
-    (setq-default org-default-notes-file "~/Library/Mobile Documents/iCloud~com~appsonthemove~beorg/Documents/org/inbox.org")
+    (setq-default org-default-notes-file "~/Dropbox/OrgFiles/Inbox.org")
     )
 
 
