@@ -539,6 +539,8 @@ before packages are loaded."
 
     ;; org-capture
     (setq-default org-default-notes-file "~/Dropbox/OrgFiles/Inbox.org")
+
+    (setq org-superstar-bullet-list '("■" "◆" "▲" "▶"))
     )
 
 
