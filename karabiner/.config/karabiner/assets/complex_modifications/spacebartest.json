@@ -1,0 +1,32 @@
+{
+    "title": "Spacebar Test",
+    "rules": [
+      {
+        "description": "Spaebar Test",
+        "manipulators": [
+            {
+                "type": "basic",
+                "from": {
+                    "simultaneous": [
+                        {
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "any"
+                        }
+                    ],
+                    "simultaneous_options": {
+                        "detect_key_down_uninterruptedly": true
+                    }
+                },
+                "to": [
+                    {
+                        "key_code": "left_control",
+                        "lazy": false
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }

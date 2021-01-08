@@ -15,7 +15,7 @@
                 "to": [
                     {
                         "key_code": "left_control",
-                        "lazy": true
+                        "lazy": false
                     }
                 ],
                 "to_if_alone": [
