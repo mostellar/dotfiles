@@ -16,7 +16,7 @@
                         }
                     ],
                     "simultaneous_options": {
-                        "detect_key_down_uninterruptedly": true
+                        "detect_key_down_uninterruptedly": false
                     }
                 },
                 "to": [
@@ -30,3 +30,5 @@
       }
     ]
   }
+this is a lot more useable, i  d
+h h h  h h;;;;;;;;; h
