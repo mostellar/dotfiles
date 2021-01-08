@@ -1,8 +1,8 @@
 {
-    "title": "Spacebar to Ctrl with Modifier Else Enter",
+    "title": "Spacebar to Ctrl with Modifier Else Spacebar",
     "rules": [
       {
-        "description": "Pressing Spacebar with a modifier sends Ctrl, pressing it by itself sends Enter. Useful for Evil Mode.",
+        "description": "Pressing Spacebar with a modifier sends Ctrl, pressing it by itself sends Spacebar. Useful for Evil Mode.",
         "manipulators": [
             {
                 "type": "basic",
@@ -15,16 +15,19 @@
                 "to": [
                     {
                         "key_code": "left_control",
-                        "lazy": false
+                        "lazy": true
                     }
                 ],
                 "to_if_alone": [
                     {
                         "key_code": "spacebar"
                     }
-                ]
+                ],
+                "parameters": {
+                    "basic.to_if_alone_timeout_milliseconds": 500
+                }
             }
         ]
       }
     ]
-  }
+}
