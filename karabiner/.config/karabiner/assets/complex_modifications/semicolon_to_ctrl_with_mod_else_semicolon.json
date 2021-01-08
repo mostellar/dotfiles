@@ -1,0 +1,31 @@
+{
+    "title": "Semicolon to Ctrl with Modifier Else Enter",
+    "rules": [
+      {
+        "description": "Pressing Semicolon with a modifier sends Ctrl, pressing it by itself sends Enter. Useful for Evil Mode.",
+        "manipulators": [
+            {
+                "type": "basic",
+                "from": {
+                    "key_code": "semicolon",
+                    "modifiers": {
+                        "optional": ["any"]
+                    }
+                },
+                "to": [
+                    {
+                        "key_code": "left_control",
+                        "lazy": true
+                    }
+                ],
+                "to_if_alone": [
+                    {
+                        "key_code": "semicolon"
+                    }
+                ]
+            }
+            
+        ]
+      }
+    ]
+  }
