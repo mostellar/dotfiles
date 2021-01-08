@@ -527,6 +527,9 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+
+  (global-visual-line-mode t)
+
   (setq which-key-idle-delay 0)
 
   ;; ESC cancels all
