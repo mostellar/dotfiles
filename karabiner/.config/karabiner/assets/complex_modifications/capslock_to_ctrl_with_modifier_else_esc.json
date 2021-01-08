@@ -2,7 +2,7 @@
     "title": "Capslock to Ctrl with Modifier Else Esc",
     "rules": [
       {
-        "description": "Pressing Escape with a modifier sends Ctrl, pressing it by itself sends Escape. Useful for Evil Mode.",
+        "description": "Pressing CapsLock with a modifier sends Ctrl, pressing it by itself sends Escape. Useful for Evil Mode.",
         "manipulators": [
             {
                 "type": "basic",
