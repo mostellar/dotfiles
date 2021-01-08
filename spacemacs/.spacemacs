@@ -530,7 +530,7 @@ before packages are loaded."
 
   (global-visual-line-mode t)
 
-  (setq which-key-idle-delay 0)
+  (setq which-key-idle-delay 0.1)
 
   ;; ESC cancels all
   (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
