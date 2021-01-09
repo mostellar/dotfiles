@@ -1,0 +1,50 @@
+{
+    "title": "F and J to Left Control",
+    "rules": [
+      {
+        "description": "F and J to Left Control",
+        "manipulators": [
+            {
+                "type": "basic",
+                "from": {
+                    "key_code": "f",
+                    "modifiers": {
+                        "optional": ["any"]
+                    }
+                },
+                "to": [
+                    {
+                        "key_code": "left_control",
+                        "lazy": true
+                    }
+                ],
+                "to_if_alone": [
+                    {
+                        "key_code": "f"
+                    }
+                ]
+            },
+            {
+                "type": "basic",
+                "from": {
+                    "key_code": "j",
+                    "modifiers": {
+                        "optional": ["any"]
+                    }
+                },
+                "to": [
+                    {
+                        "key_code": "left_control",
+                        "lazy": true
+                    }
+                ],
+                "to_if_alone": [
+                    {
+                        "key_code": "j"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+}
