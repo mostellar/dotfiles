@@ -12,15 +12,15 @@
                         "optional": ["any"]
                     }
                 },
-                "to": [
-                    {
-                        "key_code": "left_control",
-                        "lazy": true
-                    }
-                ],
                 "to_if_alone": [
                     {
                         "key_code": "spacebar"
+                    }
+                ],
+                "to_if_held_down": [
+                    {
+                        "key_code": "left_control",
+                        "lazy": true
                     }
                 ]
             }
