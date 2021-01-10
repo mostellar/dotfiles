@@ -2,7 +2,7 @@
     "title": "Spacebar to Ctrl Using Vars",
     "rules": [
       {
-        "description": "Uses variables to check for spacebar down",
+        "description": "Changes spacebar to ctrl when pressed with other keys",
         "manipulators": [
             {
 					      "type": "basic",
