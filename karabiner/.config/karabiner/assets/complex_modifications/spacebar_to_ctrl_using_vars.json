@@ -1,8 +1,8 @@
 {
-    "title": "Variable Test",
+    "title": "Spacebar to Ctrl Using Vars",
     "rules": [
       {
-        "description": "Variable Test",
+        "description": "Uses variables to check for spacebar down",
         "manipulators": [
             {
 					      "type": "basic",
