@@ -12,10 +12,11 @@
                         "optional": ["any"]
                     }
                 },
-                "to": [
+                "to_if_held_down": [
                     {
                         "key_code": "left_control",
-                        "lazy": true
+                        "lazy": true,
+                        "halt": true
                     }
                 ],
                 "to_if_alone": [
@@ -32,10 +33,11 @@
                         "optional": ["any"]
                     }
                 },
-                "to": [
+                "to_if_held_down": [
                     {
                         "key_code": "left_control",
-                        "lazy": true
+                        "lazy": true,
+                        "halt": true
                     }
                 ],
                 "to_if_alone": [

@@ -1,0 +1,68 @@
+{
+    "title": "Variable Test",
+    "rules": [
+      {
+        "description": "Variable Test",
+        "manipulators": [
+            {
+					      "type": "basic",
+					      "from": {"key_code": "a", "modifiers": {"optional": [ "any" ]}},
+					      "to": [ {"key_code": "a", "modifiers": ["left_control"]} ],
+					      "conditions": [
+						        {
+                        "type": "variable_if", "name": "spacebar_ctrl", "value": 1}
+					      ]
+				    },
+				    {
+					      "type": "basic",
+					      "from": {
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous_options": {
+							          "key_down_order": "strict",
+							          "key_up_order": "strict_inverse",
+							          "detect_key_down_uninterruptedly": true,
+							          "to_after_key_up": [
+								            {"set_variable": {"name": "spacebar_ctrl", "value": 0}}
+							          ]
+						        },
+						        "modifiers": {"optional": ["any"]}
+					      },
+					      "to": [
+						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
+						        {"key_code": "a", "modifiers": ["left_control"]}
+					      ],
+					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+				    },
+            {
+					      "type": "basic",
+					      "from": {"key_code": "b", "modifiers": {"optional": [ "any" ]}},
+					      "to": [ {"key_code": "b", "modifiers": ["left_control"]} ],
+					      "conditions": [
+						        {
+                        "type": "variable_if", "name": "spacebar_ctrl", "value": 1}
+					      ]
+				    },
+				    {
+					      "type": "basic",
+					      "from": {
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous_options": {
+							          "key_down_order": "strict",
+							          "key_up_order": "strict_inverse",
+							          "detect_key_down_uninterruptedly": true,
+							          "to_after_key_up": [
+								            {"set_variable": {"name": "spacebar_ctrl", "value": 0}}
+							          ]
+						        },
+						        "modifiers": {"optional": ["any"]}
+					      },
+					      "to": [
+						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
+						        {"key_code": "b", "modifiers": ["left_control"]}
+					      ],
+					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+				    }
+        ]
+      }
+    ]
+  }
