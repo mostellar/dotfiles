@@ -30,8 +30,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "a", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -45,7 +44,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "b"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -59,8 +58,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "b", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -74,7 +72,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "c"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -88,8 +86,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "c", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -103,7 +100,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "d"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -117,8 +114,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "d", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -132,7 +128,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "e"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -146,8 +142,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "e", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -161,7 +156,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "f"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -175,8 +170,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "f", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -190,7 +184,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "g"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -204,8 +198,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "g", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -219,7 +212,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "h"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -233,8 +226,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "h", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -248,7 +240,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "i"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -262,8 +254,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "i", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -277,7 +268,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "j"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -291,8 +282,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "j", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -306,7 +296,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "k"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -320,8 +310,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "k", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -335,7 +324,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "l"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -349,8 +338,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "l", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -364,7 +352,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "m"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -378,8 +366,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "m", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -393,7 +380,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "n"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -407,8 +394,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "n", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -422,7 +408,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "o"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -436,8 +422,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "o", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -451,7 +436,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "p"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -465,8 +450,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "p", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -480,7 +464,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "q"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -494,8 +478,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "q", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -509,7 +492,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "r"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -523,8 +506,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "r", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -538,7 +520,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "s"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -552,8 +534,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "s", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -567,7 +548,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "t"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -581,8 +562,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "t", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -596,7 +576,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "u"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -610,8 +590,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "u", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -625,7 +604,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "v"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -639,8 +618,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "v", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -654,7 +632,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "w"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -668,8 +646,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "w", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -683,7 +660,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "x"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -697,8 +674,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "x", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -712,7 +688,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "y"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -726,8 +702,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "y", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -741,7 +716,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "z"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -755,8 +730,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "z", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -770,7 +744,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "0"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -784,8 +758,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "0", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -799,7 +772,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "1"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -813,8 +786,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "1", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -828,7 +800,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "2"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -842,8 +814,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "2", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -857,7 +828,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "3"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -871,8 +842,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "3", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -886,7 +856,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "4"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -900,8 +870,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "4", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -915,7 +884,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "5"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -929,8 +898,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "5", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -944,7 +912,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "6"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -958,8 +926,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "6", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -973,7 +940,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "7"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -987,8 +954,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "7", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1002,7 +968,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "8"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1016,8 +982,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "8", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1031,7 +996,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "9"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1045,8 +1010,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "9", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1060,7 +1024,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "comma"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1074,8 +1038,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "comma", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1089,7 +1052,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "period"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1103,8 +1066,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "period", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1118,7 +1080,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "slash"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1132,8 +1094,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "slash", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1147,7 +1108,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "semicolon"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1161,8 +1122,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "semicolon", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1176,7 +1136,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "quote"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1190,8 +1150,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "quote", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1205,7 +1164,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "return_or_enter"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1219,8 +1178,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "return_or_enter", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1234,7 +1192,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "open_bracket"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1248,8 +1206,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "open_bracket", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    },
             {
 					      "type": "basic",
@@ -1263,7 +1220,7 @@
 				    {
 					      "type": "basic",
 					      "from": {
-						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "a"} ],
+						        "simultaneous": [ {"key_code": "spacebar"}, {"key_code": "close_bracket"} ],
 						        "simultaneous_options": {
 							          "key_down_order": "strict",
 							          "key_up_order": "strict_inverse",
@@ -1277,8 +1234,7 @@
 					      "to": [
 						        {"set_variable": {"name": "spacebar_ctrl", "value": 1}},
 						        {"key_code": "close_bracket", "modifiers": ["left_control"]}
-					      ],
-					      "parameters": {"basic.simultaneous_threshold_milliseconds": 500}
+					      ]
 				    }
         ]
       }
