@@ -528,6 +528,10 @@ configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
 
+  ;; Keymaps
+  ;(define-key org-mode-map (kbd "RET") 'org-meta-return)
+  (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
+
   (global-visual-line-mode t)
 
   (setq which-key-idle-delay 0.1)
