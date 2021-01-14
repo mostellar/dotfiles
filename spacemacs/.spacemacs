@@ -541,6 +541,23 @@ before packages are loaded."
 
   ;; org-mode
   (with-eval-after-load 'org
+
+    ;; Formatting
+    (setq org-superstar-headline-bullets-list '("◉" "○" "●" "○" "●" "○" "●"))
+    (setq org-ellipsis " ▶") ;; from EMS
+
+    ;; Variable pitch face
+    (set-face-attribute 'variable-pitch nil :font "Avenir Next" :height 151 :weight 'regular)
+
+    ;; Ensure that anything that should be fixed-pitch in Org files appears that way. From EMS
+    (set-face-attribute 'org-block nil :foreground nil :inherit 'fixed-pitch)
+    (set-face-attribute 'org-code nil   :inherit '(shadow fixed-pitch))
+    (set-face-attribute 'org-table nil   :inherit '(shadow fixed-pitch))
+    (set-face-attribute 'org-verbatim nil :inherit '(shadow fixed-pitch))
+    (set-face-attribute 'org-special-keyword nil :inherit '(font-lock-comment-face fixed-pitch))
+    (set-face-attribute 'org-meta-line nil :inherit '(font-lock-comment-face fixed-pitch))
+    (set-face-attribute 'org-checkbox nil :inherit 'fixed-pitch)
+
     ;; org-journal
     (setq org-journal-dir "~/Dropbox/OrgFiles")
     (setq org-journal-file-format "journal%Y-%m-%d")
@@ -548,7 +565,6 @@ before packages are loaded."
     ;; org-capture
     (setq-default org-default-notes-file "~/Dropbox/OrgFiles/Inbox.org")
 
-    (setq org-superstar-bullet-list '("■" "◆" "▲" "▶"))
     )
 
 
