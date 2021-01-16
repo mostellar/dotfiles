@@ -53,6 +53,9 @@ This function should only modify configuration layer settings."
      (org :variables
           org-want-todo-bindings t
           org-enable-org-journal-support t
+          :config
+          (setq org-agenda-files
+                '("~/Dropbox/OrgFiles/Inbox.org"))
           )
      ;; (shell :variables
      ;;        shell-default-height 30
