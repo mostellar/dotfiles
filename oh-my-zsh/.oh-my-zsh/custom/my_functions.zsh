@@ -1,5 +1,5 @@
 # Function to replace git_prompt_info() that ignores $HOME as a working directory
-# Used in my stellarwill theme
+# Used in my stellar theme
 my_git_prompt_info () {
   local ref
   if [[ $(pwd) = $HOME ]]
