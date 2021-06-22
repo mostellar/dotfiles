@@ -3,7 +3,7 @@
 
 # Trying to fix permission issues
 # "Insecure completion-dependent directories detected"
-ZSH_DISABLE_COMPFIX=true
+#ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
