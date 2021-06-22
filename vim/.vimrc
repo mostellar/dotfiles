@@ -181,4 +181,5 @@ set incsearch
 nnoremap <C-tab> :tabnext<CR>
 nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <space> za "Enable folding with spacebar
-nnoremap <esc> :noh<return><esc>
+"For some reason this causes vim to start in insert mode:
+"nnoremap <esc> :noh<return><esc>
