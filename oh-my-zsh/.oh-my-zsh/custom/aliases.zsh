@@ -10,3 +10,4 @@ alias focus="killall OneDrive; killall CrashPlanService; killall CrashPlan; kill
 alias top="top -o cpu -s 2 -stats pid,command,cpu,mem"
 # alias vi="nvim"
 # alias vim="nvim"
+alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
