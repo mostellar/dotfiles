@@ -183,3 +183,4 @@ nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <space> za "Enable folding with spacebar
 "For some reason this causes vim to start in insert mode:
 "nnoremap <esc> :noh<return><esc>
+"
