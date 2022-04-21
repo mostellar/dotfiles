@@ -3,6 +3,13 @@
 
 Now using a separate working directory with symlinks created by GNU Stow: https://www.gnu.org/software/stow/manual/stow.html.
 
+## Installation
+
+1. Install GNU Stow
+2. Clone dotfiles
+3. IMPORTANT: Create .config folder if it doesn't already exist (otherwise, it will be created as a symlink, meaning future files added there by other apps will be included in the first folder that was stowed)
+4. Stow each directory
+
 ## TODO
 * Create function/script for more graceful stowing when files already exist.
 
