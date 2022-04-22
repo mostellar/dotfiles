@@ -1,0 +1,13 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = Will Mostellar
+	email = 26006367+mostellar@users.noreply.github.com
+[core]
+	editor = vim
+	pager = less -F -X
+[pager]
+	branch = false
+	log = false
+[pull]
+	rebase = true
