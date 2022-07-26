@@ -22,10 +22,15 @@ my_git_prompt_info () {
 # If called without parameters, run fetch then status of dotfiles
 # Usually aliased to "sdf"
 dotfiles () {
-    if [ $# -eq 0 ]; then
-        $(which git) -C "$HOME/.dotfiles/" fetch
-        $(which git) -C "$HOME/.dotfiles/" status
+    if [ -d "$HOME/.dotfiles" ] ; then
+        DOT_DIR="$HOME/.dotfiles"
     else
-        $(which git) -C "$HOME/.dotfiles/" $*
+        DOT_DIR="$HOME/dotfiles/"
+    fi
+    if [ $# -eq 0 ]; then
+        $(which git) -C "$DOT_DIR" fetch
+        $(which git) -C "$DOT_DIR" status
+    else
+        $(which git) -C "$DOT_DIR" $*
     fi
 }
