@@ -11,3 +11,14 @@ alias top="top -o cpu -s 2 -stats pid,command,cpu,mem"
 # alias vi="nvim"
 # alias vim="nvim"
 alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
+alias sqlworkbench='cd "/Applications/SQLWorkbenchJ.app/Contents/Java"
+r=$(java \
+	--add-opens java.desktop/com.apple.laf=ALL-UNNAMED \
+	-cp sqlworkbench.jar \
+	-Dawt.useSystemAAFontSettings=on \
+	-Dapple.awt.showGrowBoxtrue=true \
+	-Dapple.laf.useScreenMenuBar=true \
+	-Xmx4096m \
+	-Xdock:name=SQLWorkbench/J \
+	workbench.WbStarter 2>&1)
+$r'
