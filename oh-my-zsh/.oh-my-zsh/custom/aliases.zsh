@@ -22,4 +22,4 @@ r=$(java \
 	-Xdock:name=SQLWorkbench/J \
 	workbench.WbStarter 2>&1)
 $r'
-alias mdtable='pbpaste | sed 's/  /,/g' | csvtomd | pbcopy'
+alias mdtable="pbpaste | sed 's/	/,/g' | csvtomd | pbcopy"
