@@ -137,6 +137,8 @@ autocmd FileType python nnoremap <buffer> <leader>c I#<esc>
 
 " Word wrap
 set linebreak
+" Using while working on DC
+set nowrap
 
 " Set scripts to be executable from the shell
 "au BufWritePost * if getline(1) =~ "^#!" | if getline(1) =~ "/bin/" | silent !chmod +x <afile> | endif | endif
@@ -183,3 +185,4 @@ nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <space> za "Enable folding with spacebar
 "For some reason this causes vim to start in insert mode:
 "nnoremap <esc> :noh<return><esc>
+"
