@@ -23,3 +23,4 @@ r=$(java \
 	workbench.WbStarter 2>&1)
 $r'
 alias mdtable="pbpaste | sed 's/	/,/g' | csvtomd | pbcopy"
+alias r12errors="pbpaste | grep '\"' | sed 's/.*\"\(.*\)\".*\"\(.*\)\".*/\1|\2/g' | pbcopy"
