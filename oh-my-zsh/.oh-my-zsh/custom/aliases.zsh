@@ -24,3 +24,4 @@ r=$(java \
 $r'
 alias mdtable="pbpaste | sed 's/	/,/g' | csvtomd | pbcopy"
 alias r12errors="pbpaste | grep '\"' | sed 's/.*\"\(.*\)\".*\"\(.*\)\".*/\1|\2/g' | pbcopy"
+alias decrypt='function _decrypt() { gpg -o "${1%.*}" -d "$1"; }; _decrypt'
