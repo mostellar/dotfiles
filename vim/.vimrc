@@ -27,6 +27,7 @@ Plugin 'preservim/nerdtree'
 "Plugin 'yuttie/comfortable-motion.vim'
 
 " Themes
+Plugin 'sainnhe/sonokai'
 Plugin 'tomasr/molokai'
 Plugin 'morhetz/gruvbox'
 Plugin 'sonph/onehalf', {'rtp': 'vim/'}
@@ -55,11 +56,18 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+"From sonokai
+if has('termguicolors')
+  set termguicolors
+endif
+
 " Colors and theming
-colorscheme molokai
+colorscheme sonokai
+
 set background=dark
 "Airline theming
-let g:airline_theme='molokai'
+"let g:airline_theme='molokai'
+let g:airline_theme = 'sonokai'
 "let g:airline_solarized_bg='dark'
 
 filetype plugin on
