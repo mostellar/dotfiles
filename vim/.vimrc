@@ -62,13 +62,15 @@ if has('termguicolors')
 endif
 
 " Colors and theming
-colorscheme sonokai
+"colorscheme sonokai
+"let g:rehash256 = 1
+let g:molokai_original = 0
+colorscheme molokai
 
 set background=dark
 "Airline theming
-"let g:airline_theme='molokai'
-let g:airline_theme = 'sonokai'
-"let g:airline_solarized_bg='dark'
+let g:airline_theme='molokai'
+"let g:airline_theme = 'sonokai'
 
 filetype plugin on
 set autoread
