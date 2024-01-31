@@ -4,8 +4,6 @@
 <dict>
 	<key>Custom Color Presets</key>
 	<dict>
-<<<<<<< HEAD
-=======
 		<key>DimmedMonokai</key>
 		<dict>
 			<key>Ansi 0 Color</key>
@@ -216,7 +214,6 @@
 				<real>0.16332042217254639</real>
 			</dict>
 		</dict>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 		<key>Molokai</key>
 		<dict>
 			<key>Ansi 0 Color</key>
@@ -427,26 +424,13 @@
 				<real>0.70980000495910645</real>
 			</dict>
 		</dict>
-<<<<<<< HEAD
-		<key>Sonokai</key>
-=======
 		<key>Monokai Remastered</key>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 		<dict>
 			<key>Ansi 0 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.098039217293262482</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.094117648899555206</real>
-				<key>Red Component</key>
-				<real>0.094117648899555206</real>
-=======
 				<real>0.10051459074020386</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -454,22 +438,12 @@
 				<real>0.10051288455724716</real>
 				<key>Red Component</key>
 				<real>0.10051589459180832</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.48627451062202454</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.364705890417099</real>
-				<key>Red Component</key>
-				<real>0.98823529481887817</real>
-=======
 				<real>0.3728577196598053</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -477,22 +451,12 @@
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>0.95683503150939941</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.44705882668495178</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.81568628549575806</real>
-				<key>Red Component</key>
-				<real>0.61960786581039429</real>
-=======
 				<real>0.14004382491111755</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -500,22 +464,12 @@
 				<real>0.87921047210693359</real>
 				<key>Red Component</key>
 				<real>0.59473341703414917</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.39215686917304993</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.7764706015586853</real>
-				<key>Red Component</key>
-				<real>0.90588235855102539</real>
-=======
 				<real>0.38154411315917969</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -523,22 +477,12 @@
 				<real>0.83635991811752319</real>
 				<key>Red Component</key>
 				<real>0.87748134136199951</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.87843137979507446</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.80000001192092896</real>
-				<key>Red Component</key>
-				<real>0.46274510025978088</real>
-=======
 				<real>0.99877572059631348</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -546,22 +490,12 @@
 				<real>0.39599207043647766</real>
 				<key>Red Component</key>
 				<real>0.61468899250030518</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.9529411792755127</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.61568629741668701</real>
-				<key>Red Component</key>
-				<real>0.70196080207824707</real>
-=======
 				<real>0.3728577196598053</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -569,22 +503,12 @@
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>0.95683503150939941</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.37647059559822083</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.58823531866073608</real>
-				<key>Red Component</key>
-				<real>0.9529411792755127</real>
-=======
 				<real>0.92060363292694092</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -592,22 +516,12 @@
 				<real>0.81977206468582153</real>
 				<key>Red Component</key>
 				<real>0.34416967630386353</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.89019608497619629</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.88627451658248901</real>
-				<key>Red Component</key>
-				<real>0.88627451658248901</real>
-=======
 				<real>0.9359474778175354</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -615,22 +529,12 @@
 				<real>0.96549534797668457</real>
 				<key>Red Component</key>
 				<real>0.96537256240844727</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.44705882668495178</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.81568628549575806</real>
-				<key>Red Component</key>
-				<real>0.61960786581039429</real>
-=======
 				<real>0.14004382491111755</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -638,22 +542,12 @@
 				<real>0.87921047210693359</real>
 				<key>Red Component</key>
 				<real>0.59473341703414917</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.39215686917304993</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.7764706015586853</real>
-				<key>Red Component</key>
-				<real>0.90588235855102539</real>
-=======
 				<real>0.12156862765550613</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -661,22 +555,12 @@
 				<real>0.59215688705444336</real>
 				<key>Red Component</key>
 				<real>0.99215686321258545</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.87843137979507446</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.80000001192092896</real>
-				<key>Red Component</key>
-				<real>0.46274510025978088</real>
-=======
 				<real>0.99877572059631348</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -684,22 +568,12 @@
 				<real>0.39599207043647766</real>
 				<key>Red Component</key>
 				<real>0.61468899250030518</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.9529411792755127</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.61568629741668701</real>
-				<key>Red Component</key>
-				<real>0.70196080207824707</real>
-=======
 				<real>0.3728577196598053</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -707,22 +581,12 @@
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>0.95683503150939941</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.37647059559822083</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.58823531866073608</real>
-				<key>Red Component</key>
-				<real>0.9529411792755127</real>
-=======
 				<real>0.92060363292694092</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -730,22 +594,12 @@
 				<real>0.81977206468582153</real>
 				<key>Red Component</key>
 				<real>0.34416967630386353</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.89019608497619629</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.88627451658248901</real>
-				<key>Red Component</key>
-				<real>0.88627451658248901</real>
-=======
 				<real>0.70993047952651978</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -753,22 +607,12 @@
 				<real>0.77144092321395874</real>
 				<key>Red Component</key>
 				<real>0.76960963010787964</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.098039217293262482</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.094117648899555206</real>
-				<key>Red Component</key>
-				<real>0.094117648899555206</real>
-=======
 				<real>0.29652142524719238</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -776,22 +620,12 @@
 				<real>0.36959609389305115</real>
 				<key>Red Component</key>
 				<real>0.3829454779624939</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.48627451062202454</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.364705890417099</real>
-				<key>Red Component</key>
-				<real>0.98823529481887817</real>
-=======
 				<real>0.3728577196598053</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -799,22 +633,12 @@
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>0.95683503150939941</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.20392157137393951</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.18039216101169586</real>
-				<key>Red Component</key>
-				<real>0.17254902422428131</real>
-=======
 				<real>0.046697486191987991</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -822,22 +646,10 @@
 				<real>0.046696696430444717</real>
 				<key>Red Component</key>
 				<real>0.046698093414306641</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Badge Color</key>
 			<dict>
 				<key>Alpha Component</key>
-<<<<<<< HEAD
-				<real>1</real>
-				<key>Blue Component</key>
-				<real>0.87843137979507446</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.80000001192092896</real>
-				<key>Red Component</key>
-				<real>0.46274510025978088</real>
-=======
 				<real>0.5</real>
 				<key>Blue Component</key>
 				<real>0.0</real>
@@ -847,22 +659,12 @@
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>1</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>1</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>0.99999600648880005</real>
-=======
 				<real>0.92148995399475098</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -870,22 +672,12 @@
 				<real>0.92147433757781982</real>
 				<key>Red Component</key>
 				<real>0.92150187492370605</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.87843137979507446</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.80000001192092896</real>
-				<key>Red Component</key>
-				<real>0.46274510025978088</real>
-=======
 				<real>0.12078898400068283</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -893,7 +685,6 @@
 				<real>0.59354037046432495</real>
 				<key>Red Component</key>
 				<real>0.99016290903091431</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Cursor Guide Color</key>
 			<dict>
@@ -902,34 +693,17 @@
 				<key>Blue Component</key>
 				<real>1</real>
 				<key>Color Space</key>
-<<<<<<< HEAD
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.9268307089805603</real>
-				<key>Red Component</key>
-				<real>0.70213186740875244</real>
-=======
 				<string>Calibrated</string>
 				<key>Green Component</key>
 				<real>0.9100000262260437</real>
 				<key>Red Component</key>
 				<real>0.64999997615814209</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.20392157137393951</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.18039216101169586</real>
-				<key>Red Component</key>
-				<real>0.17254902422428131</real>
-=======
 				<real>0.0</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -937,22 +711,12 @@
 				<real>0.0</real>
 				<key>Red Component</key>
 				<real>0.0</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Foreground Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.89019608497619629</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.88627451658248901</real>
-				<key>Red Component</key>
-				<real>0.88627451658248901</real>
-=======
 				<real>0.84938156604766846</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -960,22 +724,12 @@
 				<real>0.84936714172363281</real>
 				<key>Red Component</key>
 				<real>0.8493925929069519</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Link Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.87843137979507446</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.80000001192092896</real>
-				<key>Red Component</key>
-				<real>0.46274510025978088</real>
-=======
 				<real>0.67799997329711914</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -983,22 +737,12 @@
 				<real>0.27000001072883606</real>
 				<key>Red Component</key>
 				<real>0.023000000044703484</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.20392157137393951</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.18039216101169586</real>
-				<key>Red Component</key>
-				<real>0.17254902422428131</real>
-=======
 				<real>0.99999129772186279</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -1006,22 +750,12 @@
 				<real>0.99997437000274658</real>
 				<key>Red Component</key>
 				<real>1</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-<<<<<<< HEAD
-				<real>0.44705882668495178</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.81568628549575806</real>
-				<key>Red Component</key>
-				<real>0.61960786581039429</real>
-=======
 				<real>0.20521116256713867</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
@@ -1357,7 +1091,6 @@
 				<real>0.80392156862745101</real>
 				<key>Red Component</key>
 				<real>0.80784313725490198</real>
->>>>>>> 8aeecf7 (Remove unused iterm2 prefs)
 			</dict>
 		</dict>
 	</dict>
