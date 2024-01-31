@@ -22,7 +22,7 @@ less_termcap[md]="${fg_bold[blue]}"
 ## standout mode (yellow by default
 #less_termcap[so]="${fg_bold[yellow]}${bg[blue]}"
 ## underlining (green by default)
-less_termcap[us]="${fg_bold[cyan]}"
+less_termcap[us]="${fg_bold[green]}"
 
 # Make grep matches blue (uses iterm's blue)
 export GREP_COLOR='01;34'

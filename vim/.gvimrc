@@ -1,3 +1,3 @@
-set guifont=Menlo:h14
-colorscheme onehalfdark
-let g:airline_theme='onehalfdark'
+set guifont=Menlo:h15
+"colorscheme onehalfdark
+"let g:airline_theme='onehalfdark'
